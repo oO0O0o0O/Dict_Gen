@@ -2,11 +2,11 @@ Dict Gen in a password dictionary generator for personalized wordlist attacks. I
 and performs operations to generate a list of possible passwords. The main operations available are:
 
     Combination: Keywords are combined together with delimeters to create new keywords.
+    Case Changing: Letter cases are manipulated in various ways.
     Substitution: Characters are swapped for homographs.
     Appending: Characters are appended/prepended to keywords.
 
-Keywords are ordered by number of operations performed, such that less modified passwords are listed first. The objective of this program is not to always generate the correct password,
-it is to leverage relevant information to generate passwords with the highest likelihood of being correct, and to present these passwords
+Keywords are ordered by number of operations performed, such that less modified passwords are listed first. The objective of this program is not to always generate the correct password, it is to leverage relevant information to generate passwords with the highest likelihood of being correct, and to present these passwords
 in order of likelihood.
 
 Usage:
